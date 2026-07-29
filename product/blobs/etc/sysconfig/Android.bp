@@ -1,0 +1,327 @@
+//
+// Copyright (C) 2024 The hentaiOS Project and its Proprietors
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+//
+
+prebuilt_etc {
+    name: "GoogleCamera_6gb_or_more_ram",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "GoogleCamera_6gb_or_more_ram.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "adaptivecharging",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "adaptivecharging.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "allowlist_com.android.omadm.service",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "allowlist_com.android.omadm.service.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "contextual_search",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "contextual_search.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "dreamliner",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "dreamliner.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "firproximity",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "firproximity.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "game_service",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "game_service.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google_build",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google_build.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google_fi",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google_fi.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google-hiddenapi-package-whitelist",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google-hiddenapi-package-whitelist.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google-initial-package-stopped-states",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google-initial-package-stopped-states.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google-install-constraints-package-allowlist",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google-install-constraints-package-allowlist.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google-staged-installer-whitelist",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google-staged-installer-whitelist.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google-system-apps-update-ownership",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google-system-apps-update-ownership.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "google",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "google.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "nexus",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "nexus.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "nga",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "nga.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_2017-initial-package-stopped-states",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_2017-initial-package-stopped-states.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2017",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2017.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2018",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2018.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2019_midyear",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2019_midyear.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2019",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2019.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2020_midyear",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2020_midyear.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2020",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2020.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2021_midyear",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2021_midyear.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2021",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2021.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2022_midyear",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2022_midyear.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2022",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2022.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2023_midyear",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2023_midyear.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2023",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2023.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2024_midyear",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2024_midyear.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "pixel_experience_2024",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel_experience_2024.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-product-pixel-2017-and-newer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-product-pixel-2017-and-newer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-product-pixel-2018-and-newer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-product-pixel-2018-and-newer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-product-pixel-2019-and-newer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-product-pixel-2019-and-newer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-product-pixel-2022-and-newer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-product-pixel-2022-and-newer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-product-pixel-2023-and-newer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-product-pixel-2023-and-newer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "quick_tap",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "quick_tap.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "satellite_sos",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "satellite_sos.xml",
+    filename_from_src: true,
+}
