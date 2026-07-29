@@ -1,0 +1,7 @@
+product/packages/apps/*/*.apk filter=lfs diff=lfs merge=lfs -text
+product/packages/privileged_apps/*/*.apk filter=lfs diff=lfs merge=lfs -text
+system/packages/apps/*/*.apk filter=lfs diff=lfs merge=lfs -text
+system/packages/privileged_apps/*/*.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/packages/apps/*/*.apk filter=lfs diff=lfs merge=lfs -text
+system_ext/packages/privileged_apps/*/*.apk filter=lfs diff=lfs merge=lfs -text
+apex/com.google.android.gmssystem.prodvic.apex filter=lfs diff=lfs merge=lfs -text
