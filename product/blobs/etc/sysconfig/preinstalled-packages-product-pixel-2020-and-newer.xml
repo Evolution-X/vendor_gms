@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- CbrsNetworkMonitor -->
+    <install-in-user-type package="com.google.android.apps.cbrsnetworkmonitor">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+</config>
