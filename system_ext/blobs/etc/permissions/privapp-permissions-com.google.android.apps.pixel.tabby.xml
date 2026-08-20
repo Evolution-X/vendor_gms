@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+  <privapp-permissions package="com.google.android.apps.pixel.tabby">
+    <permission name="android.permission.INSTALL_PACKAGE_UPDATES"/>
+    <permission name="android.permission.DELETE_PACKAGES"/>
+  </privapp-permissions>
+</permissions>

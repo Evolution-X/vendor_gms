@@ -1,0 +1,12 @@
+prebuilt_apex {
+    name: "com.google.android.gmssystem",
+    apps: [
+        "PrebuiltGmsCoreVic",
+    ],
+    filename: "com.google.android.gmssystem.prodvic.apex",
+    source_apex_name: "com.google.android.gmssystem.prodvic",
+    owner: "google",
+    src: "com.google.android.gmssystem.prodvic.apex",
+    prefer: true,
+    product_specific: true,
+}

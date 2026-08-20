@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- Allow GMS System, a 1P non-mainline module APEX, to install automatic updates from Play using the vendor codepath. -->
+    <allowed-vendor-apex package="com.google.android.gmssystem" installerPackage="com.android.vending" />
+</config>

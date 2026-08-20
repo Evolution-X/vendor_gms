@@ -1,0 +1,20 @@
+<config>
+    <!-- Android System Intelligence (DevicePersonalizationAiAiPrebuiltPixel2025) -->
+    <install-in-user-type package="com.google.android.as">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+
+    <!-- Private Compute Services (DeviceIntelligenceNetworkPrebuiltAstrea via DevicePersonalizationAiAiPrebuiltPixel2025) -->
+    <install-in-user-type package="com.google.android.as.oss">
+        <install-in user-type="SYSTEM" />
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+    </install-in-user-type>
+
+    <!--  Android Pulse anomaly detection app (Pulse) -->
+    <install-in-user-type package="com.google.android.apps.pulse">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+</config>

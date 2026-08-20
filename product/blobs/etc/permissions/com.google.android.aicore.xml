@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2024 Google Inc. All Rights Reserved-->
+<permissions>
+    <permission name="com.google.android.aicore.permission.VENDOR_INTELLIGENCE">
+        <group gid="vendor_intelligence"/>
+    </permission>
+</permissions>
