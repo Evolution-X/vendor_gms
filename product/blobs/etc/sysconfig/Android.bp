@@ -55,6 +55,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "felica_feature",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "felica_feature.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "game_service",
     product_specific: true,
     sub_dir: "sysconfig",
@@ -67,6 +75,14 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "gemini_experience.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "gemini_intelligence_device",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "gemini_intelligence_device.xml",
     filename_from_src: true,
 }
 
@@ -343,6 +359,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "preinstalled-packages-pixel-2026-common",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-pixel-2026-common.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "preinstalled-packages-pixel-experience-2023-midyear-and-newer",
     product_specific: true,
     sub_dir: "sysconfig",
@@ -402,6 +426,22 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "preinstalled-packages-product-pixel-2024-and-newer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-product-pixel-2025-and-newer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-product-pixel-2025-and-newer.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "preinstalled-packages-product-pixel-2026-and-newer",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "preinstalled-packages-product-pixel-2026-and-newer.xml",
     filename_from_src: true,
 }
 

@@ -110,6 +110,7 @@
     <install-in-user-type package="com.google.android.settings.intelligence">
         <install-in user-type="FULL" />
         <install-in user-type="android.os.usertype.profile.MANAGED" />
+        <install-in user-type="android.os.usertype.profile.PRIVATE" />
     </install-in-user-type>
 
     <!--  StorageManagerGoogle -->

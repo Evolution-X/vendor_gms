@@ -81,7 +81,7 @@
         <!-- Place the diagnostic call to Google phone number -->
         <permission name="android.permission.CALL_PHONE" fixed="false"/>
         <!-- Write the Google phone number into the contact list -->
-        <permission name="android.permission.WRITE_CONTACT" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
     </exception>
 
     <exception package="com.google.android.apps.pixel.relationships">

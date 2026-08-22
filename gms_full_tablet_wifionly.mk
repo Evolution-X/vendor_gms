@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
 # product/app
 PRODUCT_PACKAGES += \
     AiIconsPrebuilt_20260121 \
-    CalculatorGooglePrebuilt_85006267 \
+    CalculatorGooglePrebuilt_85011599 \
     CalendarGooglePrebuilt \
     Chrome \
     Chrome-Stub \
@@ -49,16 +49,16 @@ PRODUCT_PACKAGES += \
     MarkupGoogle_v2 \
     NgaResources \
     Photos \
-    PixelThemesStub2025 \
+    PixelThemesStub2026 \
     PrebuiltGoogleAdservicesTvp \
     PrebuiltGoogleTelemetryTvp \
     SoundAmplifierPrebuilt_v4.91.886631805 \
-    SoundPickerPrebuilt_33000242 \
+    SoundPickerPrebuilt_3.4 \
     SwitchAccessPrebuilt_1.17.0.877181440 \
     TrichromeLibrary \
     TrichromeLibrary-Stub \
     VoiceAccessPrebuilt \
-    WallpaperEmojiPrebuilt-foldable-wallpaper \
+    WallpaperEmojiPrebuilt-p26-foldable-wallpaper \
     WebViewGoogle \
     WebViewGoogle-Stub \
     talkback
@@ -66,13 +66,13 @@ PRODUCT_PACKAGES += \
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
 ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
 PRODUCT_PACKAGES += \
-    PixelWallpapers2025
+    PixelWallpapers2026
 endif
 
 TARGET_INCLUDE_STOCK_ARCORE ?= true
 ifeq ($(TARGET_INCLUDE_STOCK_ARCORE),true)
 PRODUCT_PACKAGES += \
-    arcore-1.48
+    arcore
 endif
 
 # product/priv-app
@@ -83,15 +83,15 @@ PRODUCT_PACKAGES += \
     CbrsNetworkMonitor \
     ConfigUpdater \
     DeviceIntelligenceNetworkPrebuiltAstrea \
-    DevicePersonalizationAiAiPrebuiltPixel2025 \
+    DevicePersonalizationAiAiPrebuiltPixel2026 \
     FilesPrebuilt \
-    GoogleRestorePrebuilt-v1007163 \
+    GoogleRestorePrebuilt-v1068888 \
     KidsSupervisionStub \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
-    PrebuiltDeskClockGoogle_76042511 \
+    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     RelationshipsPrebuilt-301 \
     ScribePrebuilt_v8.7.880674799 \
@@ -102,24 +102,18 @@ PRODUCT_PACKAGES += \
     Velvet \
     VerifierPrebuiltClassic \
     WallpaperEffect \
-    WeatherPixelPrebuilt_10006113 \
+    WeatherPixelPrebuilt_10008663 \
     WellbeingPrebuilt
 
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
 ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
 PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt-26000013
-endif
-
-TARGET_SUPPORTS_GOOGLE_RECORDER ?= true
-ifeq ($(TARGET_SUPPORTS_GOOGLE_RECORDER),true)
-PRODUCT_PACKAGES += \
-    RecorderPrebuilt_847964105
+    PixelLiveWallpaperPrebuilt-27000055
 endif
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
 PRODUCT_PACKAGES += \
-    SCONE-v69510
+    SCONE-v77459
 endif
 
 # system/app
@@ -142,7 +136,7 @@ PRODUCT_PACKAGES += \
 # system_ext/priv-app
 PRODUCT_PACKAGES += \
     AvatarPickerGoogle \
-    DeviceConnectivityServicePrebuilt_26.01.00 \
+    DeviceConnectivityServicePrebuilt_26.03.00 \
     GoogleFeedback \
     GoogleServicesFramework \
     MagicPortraitWallpapers \
