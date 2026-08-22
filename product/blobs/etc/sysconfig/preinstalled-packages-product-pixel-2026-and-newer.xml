@@ -1,0 +1,6 @@
+<config>
+    <!-- VendorImplSatelliteService  -->
+    <install-in-user-type package="com.mediatek.satellite.service">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+</config>

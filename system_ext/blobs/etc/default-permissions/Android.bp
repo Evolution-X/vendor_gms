@@ -23,6 +23,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "default-permissions-com.google.android.apps.pixel.launcherconnector",
+    system_ext_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions-com.google.android.apps.pixel.launcherconnector.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "default-permissions-com.google.android.mosey",
     system_ext_specific: true,
     sub_dir: "default-permissions",

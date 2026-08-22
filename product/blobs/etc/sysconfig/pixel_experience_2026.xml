@@ -4,4 +4,8 @@
 <config>
     <!-- This is meant to be the canonical feature identifying 2026 and newer devices. -->
     <feature name="com.google.android.feature.PIXEL_2026_EXPERIENCE" />
+
+    <!-- Allow PixelModemService take bug report. -->
+    <bugreport-whitelisted package="com.google.android.modem.pms" />
 </config>
+

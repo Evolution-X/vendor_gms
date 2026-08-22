@@ -23,11 +23,13 @@ PRODUCT_PACKAGES += \
 # Default app Permissions
 PRODUCT_PACKAGES += \
     default-permissions-com.google.android.apps.pixel.dcservice \
+    default-permissions-com.google.android.apps.pixel.launcherconnector \
     default-permissions-com.google.android.mosey \
     default-permissions_tachyon
 
 # App Permissions
 PRODUCT_PACKAGES += \
+    privapp-permissions-com.google.android.apps.pixel.tabby \
     privapp-permissions-com.google.android.mosey \
     privapp-permissions-com.google.android.pixelsystemservice \
     privapp-permissions-google-se

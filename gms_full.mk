@@ -37,7 +37,7 @@ PRODUCT_PACKAGES += \
 # product/app
 PRODUCT_PACKAGES += \
     AiIconsPrebuilt_20260121 \
-    CalculatorGooglePrebuilt_85006267 \
+    CalculatorGooglePrebuilt_85011599 \
     CalendarGooglePrebuilt \
     Chrome \
     Chrome-Stub \
@@ -49,17 +49,17 @@ PRODUCT_PACKAGES += \
     MarkupGoogle_v2 \
     NgaResources \
     Photos \
-    PixelThemesStub2025 \
+    PixelThemesStub2026 \
     PrebuiltGoogleAdservicesTvp \
     PrebuiltGoogleTelemetryTvp \
     SoundAmplifierPrebuilt_v4.91.886631805 \
-    SoundPickerPrebuilt_33000242 \
+    SoundPickerPrebuilt_3.4 \
     SwitchAccessPrebuilt_1.17.0.877181440 \
     TrichromeLibrary \
     TrichromeLibrary-Stub \
     VoiceAccessPrebuilt \
     WallpaperAIPrebuilt_10000372 \
-    WallpaperEmojiPrebuilt-foldable-wallpaper \
+    WallpaperEmojiPrebuilt-p26-foldable-wallpaper \
     WebViewGoogle \
     WebViewGoogle-Stub \
     talkback
@@ -67,7 +67,7 @@ PRODUCT_PACKAGES += \
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
 ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
 PRODUCT_PACKAGES += \
-    PixelWallpapers2025
+    PixelWallpapers2026
 endif
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
@@ -78,13 +78,13 @@ endif
 TARGET_INCLUDE_STOCK_ARCORE ?= true
 ifeq ($(TARGET_INCLUDE_STOCK_ARCORE),true)
 PRODUCT_PACKAGES += \
-    arcore-1.48
+    arcore
 endif
 
 # product/priv-app
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
 PRODUCT_PACKAGES += \
-    SCONE-v69510
+    SCONE-v77459
 endif
 
 ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion, $(LINEAGE_BUILD)),)
@@ -97,7 +97,7 @@ endif
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
 ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
 PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt-26000013
+    PixelLiveWallpaperPrebuilt-27000055
 endif
 
 TARGET_SUPPORTS_GOOGLE_RECORDER ?= true
@@ -116,17 +116,18 @@ PRODUCT_PACKAGES += \
     ConfigUpdater \
     CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
-    DevicePersonalizationAiAiPrebuiltPixel2025 \
+    DevicePersonalizationAiAiPrebuiltPixel2026 \
+    FamilySpacePrebuilt-v2026 \
     FilesPrebuilt \
     GeminiShell_227 \
     GoogleDialer \
-    GoogleRestorePrebuilt-v1007163 \
+    GoogleRestorePrebuilt-v1054408 \
     KidsSupervisionStub \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
-    PrebuiltDeskClockGoogle_76042511 \
+    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     PulsePrebuilt \
     RelationshipsPrebuilt-301 \
@@ -134,12 +135,12 @@ PRODUCT_PACKAGES += \
     ScribePrebuilt_v8.7.880674799 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_versioned \
+    SetupWizardPrebuilt_cd1a \
     TurboPrebuilt \
     Velvet \
     VerifierPrebuiltClassic \
     WallpaperEffect \
-    WeatherPixelPrebuilt_10006113 \
+    WeatherPixelPrebuilt_10008663 \
     WellbeingPrebuilt
 
 # system/app
@@ -172,11 +173,13 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     MoseyApp \
     NexusLauncherRelease \
+    PixelSearchPrebuilt_26.02.00 \
     PersistentBackgroundServices \
-    SetupWizardPixelPrebuilt_versioned \
+    SetupWizardPixelPrebuilt_cd1a \
     StorageManagerGoogle \
     TurboAdapter \
-    WallpaperPickerGoogleRelease
+    WallpaperPickerGoogleRelease \
+    YourWidgetsStub
 
 # PrebuiltGmsCore
 PRODUCT_PACKAGES += \

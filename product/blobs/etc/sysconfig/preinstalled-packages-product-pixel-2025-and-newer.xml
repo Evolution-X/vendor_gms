@@ -1,0 +1,6 @@
+<config>
+    <!-- PixelSatelliteService -->
+    <install-in-user-type package="com.google.android.satellite">
+        <install-in user-type="SYSTEM" />
+    </install-in-user-type>
+</config>

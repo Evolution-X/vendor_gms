@@ -39,6 +39,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "com.google.android.apps.pixel.familyspace",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.google.android.apps.pixel.familyspace.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "com.google.android.apps.setupwizard.searchselector",
     product_specific: true,
     sub_dir: "permissions",

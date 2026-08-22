@@ -31,7 +31,7 @@ endif
 
 # product/app
 PRODUCT_PACKAGES += \
-    CalculatorGooglePrebuilt_85006267 \
+    CalculatorGooglePrebuilt_85011599 \
     Chrome \
     Chrome-Stub \
     GoogleContacts \
@@ -39,8 +39,8 @@ PRODUCT_PACKAGES += \
     LatinIMEGooglePrebuilt \
     LocationHistoryPrebuilt \
     MarkupGoogle_v2 \
-    PixelThemesStub2025 \
-    SoundPickerPrebuilt_33000242 \
+    PixelThemesStub2026 \
+    SoundPickerPrebuilt_3.4 \
     TrichromeLibrary \
     TrichromeLibrary-Stub \
     WebViewGoogle \
@@ -54,23 +54,23 @@ PRODUCT_PACKAGES += \
     CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     GoogleDialer \
-    GoogleRestorePrebuilt-v1007163 \
+    GoogleRestorePrebuilt-v1054408 \
     KidsSupervisionStub \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
-    PrebuiltDeskClockGoogle_76042511 \
+    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_versioned \
+    SetupWizardPrebuilt_cd1a \
     TurboPrebuilt \
     VerifierPrebuiltClassic \
     WellbeingPrebuilt
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
 PRODUCT_PACKAGES += \
-    SCONE-v69510
+    SCONE-v77459
 endif
 
 ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion, $(LINEAGE_BUILD)),)
@@ -102,7 +102,7 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     MoseyApp \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt_versioned \
+    SetupWizardPixelPrebuilt_cd1a \
     WallpaperPickerGoogleRelease
 
 # PrebuiltGmsCore
