@@ -16,22 +16,26 @@
 #
 #
 
-# Device Connectivity Service
-PRODUCT_PACKAGES += \
-    com.google.android.apps.pixel.dcservice
-
 # Default app Permissions
 PRODUCT_PACKAGES += \
     default-permissions-com.google.android.apps.pixel.dcservice \
+    default-permissions-com.google.android.apps.pixel.launcherconnector \
     default-permissions-com.google.android.mosey \
+    default-permissions-com.google.android.pixel.setupwizard \
     default-permissions_tachyon
 
 # App Permissions
 PRODUCT_PACKAGES += \
+    com.google.android.apps.pixel.dcservice \
+    com.google.android.apps.pixel.launcherconnector \
+    privapp-permissions-com.google.android.apps.pixel.tabby \
     privapp-permissions-com.google.android.mosey \
     privapp-permissions-com.google.android.pixelsystemservice \
     privapp-permissions-google-se
 
 # Sysconfig
 PRODUCT_PACKAGES += \
-    preinstalled-packages-pixelsystemservice
+    preinstalled-packages-com.google.android.apps.pixel.tabby \
+    preinstalled-packages-pixelsupport \
+    preinstalled-packages-pixelsystemservice \
+    staged-installer-whitelist-com.google.android.apps.pixel.tabby

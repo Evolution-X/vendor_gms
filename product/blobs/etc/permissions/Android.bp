@@ -31,6 +31,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "com.google.android.apps.diagnosticstool",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.google.android.apps.diagnosticstool.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "com.google.android.apps.dreamliner",
     product_specific: true,
     sub_dir: "permissions",
@@ -39,10 +47,34 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "com.google.android.apps.pixel.familyspace",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.google.android.apps.pixel.familyspace.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "com.google.android.apps.setupwizard.searchselector",
     product_specific: true,
     sub_dir: "permissions",
     src: "com.google.android.apps.setupwizard.searchselector.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "com.google.android.apps.stargate.support",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.google.android.apps.stargate.support.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "com.google.android.apps.stargate",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "com.google.android.apps.stargate.xml",
     filename_from_src: true,
 }
 
@@ -83,6 +115,22 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "permissions",
     src: "privapp-permissions-google-p.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-google-pearl",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-google-pearl.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-google-spoon",
+    product_specific: true,
+    sub_dir: "permissions",
+    src: "privapp-permissions-google-spoon.xml",
     filename_from_src: true,
 }
 

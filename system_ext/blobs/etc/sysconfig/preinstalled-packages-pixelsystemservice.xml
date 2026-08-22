@@ -18,5 +18,6 @@
         <install-in user-type="SYSTEM" />
         <install-in user-type="FULL" />
         <install-in user-type="android.os.usertype.profile.MANAGED" />
+        <install-in user-type="android.os.usertype.profile.PRIVATE" />
     </install-in-user-type>
 </config>

@@ -1,0 +1,7 @@
+<config>
+    <!-- Pixel Troubleshooting App (Pixel Support) -->
+    <install-in-user-type package="com.google.android.apps.pixel.support">
+        <install-in user-type="FULL" />
+        <install-in user-type="android.os.usertype.profile.MANAGED" />
+    </install-in-user-type>
+</config>

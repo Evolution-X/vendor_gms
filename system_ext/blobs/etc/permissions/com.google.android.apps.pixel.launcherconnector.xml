@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright 2021 Google Inc. All Rights Reserved-->
+<permissions>
+  <privapp-permissions package="com.google.android.apps.pixel.launcherconnector">
+    <permission name="android.permission.WAKE_LOCK"/>
+    <permission name="android.permission.QUERY_ALL_PACKAGES"/>
+    <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+    <permission name="com.android.providers.media.permission.BIND_SEARCH_MEDIA_SERVICE"/>
+    <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+    <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+  </privapp-permissions>
+</permissions>

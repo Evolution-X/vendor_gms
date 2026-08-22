@@ -76,12 +76,12 @@
         <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"/>
         <!-- Used to call ActivityTransition API for Smart PNO -->
         <permission name="android.permission.ACTIVITY_RECOGNITION" fixed="false"/>
-        <!-- Used to display notifications for Spectrum Speedboost and Satellite eSOS -->
+        <!-- Used to display notifications for Spectrum Speedboost, Satellite eSOS, and Private networks -->
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
         <!-- Place the diagnostic call to Google phone number -->
         <permission name="android.permission.CALL_PHONE" fixed="false"/>
         <!-- Write the Google phone number into the contact list -->
-        <permission name="android.permission.WRITE_CONTACT" fixed="false"/>
+        <permission name="android.permission.WRITE_CONTACTS" fixed="false"/>
     </exception>
 
     <exception package="com.google.android.apps.pixel.relationships">
@@ -114,8 +114,6 @@
             package="com.verizon.mips.services">
         <!-- Call -->
         <permission name="android.permission.PROCESS_OUTGOING_CALLS" fixed="false"/>
-        <!-- Phone -->
-        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
         <!-- SMS -->
         <permission name="android.permission.RECEIVE_SMS" fixed="false"/>
     </exception>
@@ -124,11 +122,19 @@
         package="com.google.android.factorytest">
         <!-- Camera -->
         <permission name="android.permission.CAMERA" fixed="false"/>
+        <!-- Location -->
+        <permission name="android.permission.ACCESS_COARSE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"/>
         <!-- Microphone -->
         <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+        <!-- Phone -->
+        <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
         <!-- Storage -->
         <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
         <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        <!-- Used for WiFi scans -->
+        <permission name="android.permission.NEARBY_WIFI_DEVICES" fixed="false"/>
     </exception>
 
     <exception package="com.google.android.wfcactivation">
@@ -139,15 +145,15 @@
     </exception>
 
     <exception package="com.google.android.apps.accessibility.voiceaccess">
-        <!-- Voice Access: A11y app to allow users to setup & control their devices with voice -->
-        <!-- Approved android bug for pregrant permissions: b/182307492 -->
+        <!-- Voice Access: A11y app to allow users to setup & control their devices with voice -->
+        <!-- Approved android bug for pregrant permissions: b/182307492 -->
 
         <!-- Phone state to turn off Voice Access when user is in a phone call -->
         <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
 
         <!-- Microphone: To hear user's voice commands -->
         <permission name="android.permission.RECORD_AUDIO" fixed="false"/>
-    </exception>
+    </exception>
     <exception
         package="com.google.android.deskclock">
         <!-- Notifications -->
@@ -159,9 +165,9 @@
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
     </exception>
     <exception
-        package="com.google.android.apps.work.oobconfig">
+        package="com.google.android.euicc">
         <!-- Notifications -->
-        <permission name="android.permission.POST_NOTIFICATIONS" fixed="true"/>
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
     </exception>
     <exception
         package="com.google.android.apps.turbo">
@@ -169,14 +175,14 @@
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
     </exception>
     <exception
-        package="com.google.android.euicc">
-        <!-- Notifications -->
-        <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
-    </exception>
-    <exception
         package="com.google.android.apps.privacy.wildlife">
         <permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
         <permission name="android.permission.POST_NOTIFICATIONS" fixed="false"/>
+    </exception>
+    <exception
+        package="com.google.android.apps.work.oobconfig">
+        <!-- Notifications -->
+        <permission name="android.permission.POST_NOTIFICATIONS" fixed="true"/>
     </exception>
 </exceptions>
 

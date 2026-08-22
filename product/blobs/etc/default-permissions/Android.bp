@@ -55,6 +55,22 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "default-permissions_nowplaying",
+    product_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions_nowplaying.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions_pixelsupport",
+    product_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions_pixelsupport.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "default-permissions_pixelweather",
     product_specific: true,
     sub_dir: "default-permissions",
@@ -79,10 +95,34 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "default-permissions-com.google.android.apps.pixel.agent",
+    product_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions-com.google.android.apps.pixel.agent.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions-com.google.android.apps.pixel.psi",
+    product_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions-com.google.android.apps.pixel.psi.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "default-permissions-safetyhub",
     product_specific: true,
     sub_dir: "default-permissions",
     src: "default-permissions-safetyhub.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions-stargate",
+    product_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions-stargate.xml",
     filename_from_src: true,
 }
 
