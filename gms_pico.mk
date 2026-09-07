@@ -51,22 +51,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
-    CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
-    GoogleDialer \
-    GoogleRestorePrebuilt-v1054408 \
-    KidsSupervisionStub \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
-    PrebuiltBugle \
-    PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt_cd1a \
-    TurboPrebuilt \
-    VerifierPrebuiltClassic \
-    WellbeingPrebuilt
+    VerifierPrebuiltClassic
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
 PRODUCT_PACKAGES += \
