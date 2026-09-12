@@ -94,10 +94,8 @@ PRODUCT_PACKAGES += \
     DreamlinerUpdater
 endif
 
-ifeq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
     pixel-haptics-override
-endif
 
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
 ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
