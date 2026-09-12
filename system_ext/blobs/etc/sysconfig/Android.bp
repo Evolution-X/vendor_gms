@@ -21,3 +21,11 @@ prebuilt_etc {
     src: "preinstalled-packages-pixelsystemservice.xml",
     filename_from_src: true,
 }
+
+prebuilt_etc {
+    name: "pixel-haptics-override",
+    system_ext_specific: true,
+    sub_dir: "sysconfig",
+    src: "pixel-haptics-override.xml",
+    filename_from_src: true,
+}
