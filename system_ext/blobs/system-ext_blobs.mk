@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
 
 # Sysconfig
 PRODUCT_PACKAGES += \
+    pixel-haptics-override \
     preinstalled-packages-com.google.android.apps.pixel.tabby \
     preinstalled-packages-pixelsupport \
     preinstalled-packages-pixelsystemservice \
