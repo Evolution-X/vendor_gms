@@ -26,6 +26,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
       <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
       <permission name="android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS"/>
       <permission name="android.permission.QUERY_USERS" />
+      <permission name="android.permission.READ_HOME_TIME_ZONE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.angle">
@@ -204,6 +205,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.LOCATION_HARDWARE"/>
         <permission name="android.permission.LOCATION_BYPASS"/>
         <permission name="android.permission.MANAGE_USB"/>
+        <permission name="android.permission.MANAGE_WIFI_NETWORK_SELECTION"/>
         <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.MONITOR_DEFAULT_SMS_PACKAGE"/>
@@ -315,8 +317,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.PERSONAL_CONTEXT_PUBLISH_HINTS"/>
         <!-- Permission to refine hints for personal context. -->
         <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_HINTS"/>
-        <permission name="android.permission.PERSONAL_CONTEXT_HOST_INSIGHT_SURFACE"/>
-        <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.as.oss">
@@ -388,6 +388,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.PERSONAL_CONTEXT_PUBLISH_HINTS" />
         <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS" />
         <permission name="android.permission.PERSONAL_CONTEXT_HOST_INSIGHT_SURFACE" />
+        <permission name="android.permission.PERSONAL_CONTEXT_READ_SETTINGS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.euicc">
@@ -717,6 +718,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
         <permission name="com.google.wear.permission.DISPLAY_OFFLOAD"/>
         <permission name="com.google.wear.permission.MANAGE_ACTIVITY_AUTO_RESUME"/>
+        <permission name="android.permission.ACCESS_COMPANION_INFO"/>
     </privapp-permissions>
     <!-- LINT.ThenChange(/vendor/google/modules/GmsSystemGoogle/permissions/com.google.android.gmssystem.xml) -->
 

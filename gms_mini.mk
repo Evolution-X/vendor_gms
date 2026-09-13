@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
     DevicePersonalizationPrebuiltPixel2020 \
     FilesPrebuilt \
     GoogleDialer \
-    GoogleRestorePrebuilt-v1054408 \
+    GoogleRestorePrebuilt-v1068888 \
     KidsSupervisionStub \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
@@ -81,7 +81,7 @@ PRODUCT_PACKAGES += \
     PrebuiltDeskClockGoogle_76060331 \
     PrebuiltPixelCoreServices \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_cd1a \
+    SetupWizardPrebuilt_versioned \
     TurboPrebuilt \
     Velvet \
     VerifierPrebuiltClassic \
@@ -121,7 +121,7 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     MoseyApp \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt_cd1a \
+    SetupWizardPixelPrebuilt_versioned \
     WallpaperPickerGoogleRelease
 
 # PrebuiltGmsCore

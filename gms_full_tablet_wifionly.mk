@@ -85,7 +85,7 @@ PRODUCT_PACKAGES += \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     DevicePersonalizationAiAiPrebuiltPixel2026 \
     FilesPrebuilt \
-    GoogleRestorePrebuilt-v1054408 \
+    GoogleRestorePrebuilt-v1068888 \
     KidsSupervisionStub \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
@@ -97,7 +97,7 @@ PRODUCT_PACKAGES += \
     ScribePrebuilt_v8.7.880674799 \
     SearchSelectorPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_cd1a \
+    SetupWizardPrebuilt_versioned \
     TurboPrebuilt \
     Velvet \
     VerifierPrebuiltClassic \
@@ -142,13 +142,13 @@ PRODUCT_PACKAGES += \
 # system_ext/priv-app
 PRODUCT_PACKAGES += \
     AvatarPickerGoogle \
-    DeviceConnectivityServicePrebuilt_26.01.00 \
+    DeviceConnectivityServicePrebuilt_26.03.00 \
     GoogleFeedback \
     GoogleServicesFramework \
     MagicPortraitWallpapers \
     MoseyApp \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt_cd1a \
+    SetupWizardPixelPrebuilt_versioned \
     StorageManagerGoogle \
     TurboAdapter \
     WallpaperPickerGoogleRelease

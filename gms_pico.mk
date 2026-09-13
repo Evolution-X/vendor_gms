@@ -57,7 +57,7 @@ PRODUCT_PACKAGES += \
     Phonesky \
     PrebuiltPixelCoreServices \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_cd1a \
+    SetupWizardPrebuilt_versioned \
     VerifierPrebuiltClassic
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
@@ -94,7 +94,7 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     MoseyApp \
     NexusLauncherRelease \
-    SetupWizardPixelPrebuilt_cd1a \
+    SetupWizardPixelPrebuilt_versioned \
     WallpaperPickerGoogleRelease
 
 # PrebuiltGmsCore

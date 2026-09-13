@@ -27,5 +27,7 @@
     <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND" />
     <permission name="android.permission.MODIFY_DEFAULT_AUDIO_EFFECTS" />
     <permission name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <permission name="android.permission.ACCESS_CONTEXT_HUB"/>
+    <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
   </privapp-permissions>
 </permissions>

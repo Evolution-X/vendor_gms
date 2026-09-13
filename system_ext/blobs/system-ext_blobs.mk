@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
 # Default app Permissions
 PRODUCT_PACKAGES += \
     default-permissions-com.google.android.apps.pixel.dcservice \
-    default-permissions-com.google.android.apps.pixel.launcherconnector \
     default-permissions-com.google.android.mosey \
     default-permissions_tachyon
 
