@@ -64,6 +64,7 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt_versioned \
     TurboPrebuilt \
+    VelvetGo \
     VerifierPrebuiltClassic \
     WellbeingPrebuilt
 
