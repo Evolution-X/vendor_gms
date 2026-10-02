@@ -67,7 +67,6 @@ PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     CarrierLocation \
     ConfigUpdater \
-    CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     DevicePersonalizationPrebuiltPixel2020 \
     FilesPrebuilt \

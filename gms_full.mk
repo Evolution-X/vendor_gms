@@ -111,7 +111,6 @@ PRODUCT_PACKAGES += \
     CarrierMetrics \
     CbrsNetworkMonitor \
     ConfigUpdater \
-    CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     DevicePersonalizationAiAiPrebuiltPixel2026 \
     FamilySpacePrebuilt-v2026 \

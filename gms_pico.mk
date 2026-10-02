@@ -54,7 +54,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
-    CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     GoogleDialer \
     GoogleRestorePrebuilt-v1068888 \
