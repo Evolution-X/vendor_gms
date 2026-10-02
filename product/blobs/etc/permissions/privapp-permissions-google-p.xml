@@ -48,6 +48,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.MANAGE_AISEAL_VIRTUAL_MACHINE"/>
         <permission name="android.permission.ACCESS_NPU_MODEL_MANAGER_API"/>
         <permission name="android.permission.ATTRIBUTE_WORK_TO_OTHER_APPS"/>
+        <!-- Added in 26Q4 release -->
+        <permission name="android.permission.PROVIDE_ON_DEVICE_INTELLIGENCE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.nbu.files">
@@ -147,6 +149,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
         <permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+        <permission name="android.permission.CUSTOMIZE_SYSTEM_UI"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.pixel.relationships">
@@ -163,11 +166,13 @@ It allows additional grants on top of privapp-permissions-platform.xml
     <privapp-permissions package="com.google.android.apps.restore">
         <permission name="android.permission.ACCESS_LAUNCHER_DATA"/>
         <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
         <permission name="android.permission.MANAGE_USB"/>
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.MANAGE_WIFI_NETWORK_SELECTION"/>
         <permission name="android.permission.MODIFY_PHONE_STATE"/>
         <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
+        <permission name="android.permission.PERSONAL_CONTEXT_WRITE_SETTINGS" />
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.READ_WIFI_CREDENTIAL"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
@@ -317,6 +322,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.PERSONAL_CONTEXT_PUBLISH_HINTS"/>
         <!-- Permission to refine hints for personal context. -->
         <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_HINTS"/>
+        <permission name="android.permission.PERSONAL_CONTEXT_HOST_INSIGHT_SURFACE"/>
+        <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.as.oss">
@@ -326,6 +333,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
       <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
       <!-- Permission to receive insights for personal context visualizer. -->
       <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS"/>
+      <!-- Permission to publish hints for personal context. -->
+      <permission name="android.permission.PERSONAL_CONTEXT_PUBLISH_HINTS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.carrier">
@@ -493,6 +502,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
         <permission name="android.permission.LOADER_USAGE_STATS"/>
         <permission name="android.permission.MANAGE_CLOUDSEARCH"/>
+        <permission name="android.permission.MANAGE_DEFAULT_SEARCH_ENGINE"/>
         <permission name="android.permission.MANAGE_ROLLBACKS"/>
         <permission name="android.permission.MANAGE_USERS"/>
         <permission name="android.permission.PACKAGE_USAGE_STATS"/>
@@ -566,6 +576,9 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SUSPEND_APPS"/>
         <permission name="android.permission.WRITE_DREAM_STATE"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <!-- Added in 26Q4 release -->
+        <permission name="android.permission.ACCESS_CONTEXT_HUB"/>
+        <permission name="android.permission.LOCATION_HARDWARE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.backuptransport">
@@ -618,6 +631,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.FORCE_STOP_PACKAGES"/>
         <permission name="android.permission.GET_APP_OPS_STATS"/>
         <permission name="android.permission.GET_ROLE_HOLDERS" />
+        <permission name="android.permission.INSTALL_LOCATION_PROVIDER"/>
         <permission name="android.permission.INSTALL_LOCATION_TIME_ZONE_PROVIDER_SERVICE" />
         <permission name="android.permission.INTENT_FILTER_VERIFICATION_AGENT"/>
         <permission name="android.permission.INTERACT_ACROSS_USERS"/>
@@ -661,7 +675,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.PROVIDE_REMOTE_CREDENTIALS"/>
         <permission name="android.permission.PROVIDE_RESOLVER_RANKER_SERVICE" />
         <permission name="android.permission.PROVIDE_TRUST_AGENT"/>
-        <permission name="android.permission.RANGING"/>
         <permission name="android.permission.READ_COMPAT_CHANGE_CONFIG"/>
         <permission name="android.permission.READ_DREAM_STATE"/>
         <permission name="android.permission.READ_DROPBOX_DATA"/>
@@ -772,6 +785,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.PERSONAL_CONTEXT_READ_SETTINGS"/>
         <permission name="android.permission.PERSONAL_CONTEXT_RECEIVE_INSIGHTS"/>
         <permission name="android.permission.POWER_SAVER"/>
+        <permission name="android.permission.QUERY_ADVANCED_PROTECTION_FEATURES"/>
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <permission name="android.permission.REQUEST_COMPANION_SELF_MANAGED"/>
         <permission name="android.permission.SCHEDULE_EXACT_ALARM"/>
@@ -816,6 +830,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.ACCESS_COMPUTER_CONTROL"/>
         <permission name="android.permission.PERSONAL_CONTEXT_READ_SETTINGS" />
         <permission name="android.permission.PERSONAL_CONTEXT_WRITE_SETTINGS" />
+        <permission name="android.permission.USE_ON_DEVICE_INTELLIGENCE"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.settings.intelligence">
@@ -850,6 +865,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.LOCAL_MAC_ADDRESS"/>
         <permission name="android.permission.LOCATION_HARDWARE"/>
         <permission name="android.permission.MANAGE_FINGERPRINT"/>
+        <permission name="android.permission.MANAGE_MULTIUSER_DEVICE_PROVISIONING_STATE"/>
         <permission name="android.permission.MANAGE_TIME_AND_ZONE_DETECTION"/>
         <permission name="android.permission.MANAGE_USB"/>
         <permission name="android.permission.MANAGE_USERS"/>
@@ -869,8 +885,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SET_TIME"/>
         <permission name="android.permission.SET_TIME_ZONE"/>
         <permission name="android.permission.SHUTDOWN"/>
-        <permission name="android.permission.STATUS_BAR"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+        <permission name="android.permission.STATUS_BAR"/>
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
         <permission name="android.permission.WRITE_APN_SETTINGS"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
@@ -1068,7 +1084,6 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.MODIFY_PHONE_STATE" />
         <!-- Used to get the phone state i.e. Mobile Data -->
         <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
         <!-- Used to get the phone state i.e. Wifi Tethering -->
         <permission name="android.permission.TETHER_PRIVILEGED"/>
         <!-- Used to set the secured phone settings -->
@@ -1096,6 +1111,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.OVERRIDE_WIFI_CONFIG"/>
         <!-- Required for showing power menu -->
         <permission name="android.permission.SHOW_POWER_MENU_PRIVILEGED"/>
+        <!-- Required for AdaptiveCharging activated status -->
+        <permission name="android.permission.BATTERY_STATS"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.nest.dockmanager.app">
@@ -1126,6 +1143,10 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="com.google.sensor.permission.FAR_INFRARED_TEMPERATURE" />
         <!-- Used to get system logs from logcat b/456195104-->
         <permission name="android.permission.READ_LOGS" />
+        <!-- Used to get raw audio dumps from AOC b/524089279-->
+        <permission name="com.google.android.modem.pms.permission.USE_MODEM_SERVICE"/>
+        <!-- Used to get raw audio dumps from AOC b/524089279-->
+        <permission name="com.google.android.modem.pms.permission.CONTROL_MODEM_LOGGING"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.apps.aiwallpapers">

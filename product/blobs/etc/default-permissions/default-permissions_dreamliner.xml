@@ -1,0 +1,7 @@
+<exceptions>
+
+    <exception package="com.google.android.apps.dreamliner">
+        <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false"/>
+    </exception>
+
+</exceptions>

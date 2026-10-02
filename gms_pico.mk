@@ -31,7 +31,7 @@ endif
 
 # product/app
 PRODUCT_PACKAGES += \
-    CalculatorGooglePrebuilt_85011599 \
+    CalculatorGooglePrebuilt_85022643 \
     Chrome \
     Chrome-Stub \
     GoogleContacts \
@@ -47,22 +47,18 @@ PRODUCT_PACKAGES += \
     WebViewGoogle-Stub \
     talkback
 
-# product/priv-app
-PRODUCT_PACKAGES += \
-    pixel-haptics-override
-
 PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     ConfigUpdater \
-    CustomizationBundlePrebuiltFullVersion \
     DeviceIntelligenceNetworkPrebuiltAstrea \
     GoogleDialer \
-    GoogleRestorePrebuilt-v1068888 \
+    GoogleRestorePrebuilt-v1111728 \
     KidsSupervisionStub \
+    MoseyApp \
     OdadPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
-    PrebuiltDeskClockGoogle_76060331 \
+    PrebuiltDeskClockGoogle_76112331 \
     PrebuiltPixelCoreServices \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt_versioned \
@@ -92,7 +88,6 @@ PRODUCT_PACKAGES += \
     AvatarPickerGoogle \
     GoogleFeedback \
     GoogleServicesFramework \
-    MoseyApp \
     NexusLauncherRelease \
     PersistentBackgroundServices \
     SetupWizardPixelPrebuilt_versioned \

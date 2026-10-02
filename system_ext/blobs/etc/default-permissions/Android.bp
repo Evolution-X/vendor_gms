@@ -31,14 +31,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "default-permissions-com.google.android.mosey",
-    system_ext_specific: true,
-    sub_dir: "default-permissions",
-    src: "default-permissions-com.google.android.mosey.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
     name: "default-permissions_tachyon",
     system_ext_specific: true,
     sub_dir: "default-permissions",

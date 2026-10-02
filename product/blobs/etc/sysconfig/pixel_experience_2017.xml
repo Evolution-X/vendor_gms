@@ -50,6 +50,11 @@
         <component class="com.android.documentsui.ViewDownloadsActivity" enabled="false" />
     </component-override>
 
+    <!-- Hide FilesApp Launcher intent handling on Pixel devices. -->
+    <component-override package="com.google.android.filesapp" >
+        <component class="com.android.filesapp.clients.LauncherActivity" enabled="false" />
+    </component-override>
+
     <!-- ACTION_MANAGE_STORAGE handled by Files by Google -->
     <component-override package="com.google.android.storagemanager" >
         <component class="com.android.storagemanager.deletionhelper.DeletionHelperActivity" enabled="false" />

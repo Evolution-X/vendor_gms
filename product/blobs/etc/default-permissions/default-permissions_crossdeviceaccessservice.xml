@@ -20,5 +20,8 @@
     <exception package="com.google.android.crossdeviceaccessservice">
         <permission name="android.permission.BLUETOOTH_CONNECT" fixed="false"/>
         <permission name="android.permission.UWB_RANGING" fixed="false"/>
+        <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="false"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="false"/>
+        <permission name="android.permission.NEARBY_WIFI_DEVICES" fixed="false"/>
     </exception>
 </exceptions>

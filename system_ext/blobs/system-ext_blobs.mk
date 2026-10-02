@@ -16,23 +16,22 @@
 #
 #
 
-# Device Connectivity Service
-PRODUCT_PACKAGES += \
-    com.google.android.apps.pixel.dcservice
-
 # Default app Permissions
 PRODUCT_PACKAGES += \
     default-permissions-com.google.android.apps.pixel.dcservice \
-    default-permissions-com.google.android.mosey \
+    default-permissions-com.google.android.apps.pixel.launcherconnector \
     default-permissions_tachyon
 
 # App Permissions
 PRODUCT_PACKAGES += \
+    com.google.android.apps.pixel.dcservice \
+    com.google.android.apps.pixel.launcherconnector \
+    com.google.android.moseylib \
     privapp-permissions-com.google.android.apps.pixel.tabby \
-    privapp-permissions-com.google.android.mosey \
     privapp-permissions-com.google.android.pixelsystemservice \
     privapp-permissions-google-se
 
 # Sysconfig
 PRODUCT_PACKAGES += \
+    pixel-haptics-override \
     preinstalled-packages-pixelsystemservice

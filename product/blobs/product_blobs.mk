@@ -22,10 +22,18 @@ PRODUCT_PACKAGES += \
     default-permissions_com.google.ambient.streaming \
     default-permissions_crossdeviceaccessservice \
     default-permissions_customizationbundle \
+    default-permissions_dreamliner \
+    default-permissions_findMyDevice \
+    default-permissions_nowplaying \
+    default-permissions_pixelsupport \
     default-permissions_pixelweather \
     default-permissions_talkback \
     default-permissions_wallpapereffect \
+    default-permissions-com.google.android.apps.pixel.agent \
+    default-permissions-com.google.android.apps.pixel.psi \
+    default-permissions-com.google.android.mosey \
     default-permissions-safetyhub \
+    default-permissions-stargate \
     default-permissions-verifier \
     default_permissions_allowlist
 
@@ -33,13 +41,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.google.SSRestartDetector \
     com.google.android.aicore \
-    com.google.android.apps.dreamliner \
+    com.google.android.apps.diagnosticstool \
+    com.google.android.apps.dreamliner-27Q1 \
     com.google.android.apps.pixel.familyspace \
     com.google.android.apps.setupwizard.searchselector \
+    com.google.android.apps.stargate.support \
+    com.google.android.apps.stargate \
+    com.google.android.feature.aicore_gms_onboarded \
     com.google.android.odad \
     com.google.android.verifier \
+    privapp-permissions-com.google.android.mosey \
     privapp-permissions-glasses-core \
     privapp-permissions-google-p \
+    privapp-permissions-google-pearl \
+    privapp-permissions-google-spoon \
     split-permissions-google \
     velvet_app-privapp-permissions
 
@@ -52,6 +67,7 @@ PRODUCT_PACKAGES += \
     allowed_apex_com.google.android.gmssystem \
     ambient_data \
     app-lock-exempt-pixel \
+    call_recording_audio \
     contextual_search \
     game_service \
     gemini_experience \
@@ -65,6 +81,7 @@ PRODUCT_PACKAGES += \
     google-staged-installer-whitelist \
     google-system-apps-update-ownership \
     google \
+    hiddenapi-allowlist-mosey \
     nexus \
     nga \
     pixel_2017-initial-package-stopped-states \
@@ -75,21 +92,9 @@ PRODUCT_PACKAGES += \
     pixel_experience_2020_midyear \
     pixel_experience_2020 \
     pixel_experience_2021_midyear \
-    preinstalled_packages_pixel_experience_2017_and_newer \
-    preinstalled_packages_pixel_experience_2021_and_newer \
-    preinstalled-packages-glasses-core-pixel-common \
-    preinstalled-packages-pixel-2025-common \
-    preinstalled-packages-pixel-2026-common \
-    preinstalled-packages-pixel-experience-2023-midyear-and-newer \
-    preinstalled-packages-product-pixel-2017-and-newer \
-    preinstalled-packages-product-pixel-2018-and-newer \
-    preinstalled-packages-product-pixel-2019-and-newer \
-    preinstalled-packages-product-pixel-2020-and-newer \
-    preinstalled-packages-product-pixel-2022-and-newer \
-    preinstalled-packages-product-pixel-2023-and-newer \
-    preinstalled-packages-product-pixel-2024-and-newer \
-    preinstalled-packages-product-pixel-2025-and-newer \
-    preinstalled-packages-product-pixel-2026-and-newer
+    preinstalled-packages-merged-product \
+    satellite_sos \
+    spoon
 
 ifneq ($(filter oriole raven panther cheetah lynx tangorpro felix shiba husky akita tokay caiman komodo comet tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \

@@ -39,6 +39,14 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
+    name: "call_recording_audio",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "call_recording_audio.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
     name: "contextual_search",
     product_specific: true,
     sub_dir: "sysconfig",
@@ -155,6 +163,14 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "google.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "hiddenapi-allowlist-mosey",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "hiddenapi-allowlist-mosey.xml",
     filename_from_src: true,
 }
 
@@ -327,121 +343,10 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "preinstalled-packages-glasses-core-pixel-common",
+    name: "preinstalled-packages-merged-product",
     product_specific: true,
     sub_dir: "sysconfig",
-    src: "preinstalled-packages-glasses-core-pixel-common.xml",
-    filename_from_src: true,
-} 
-
-prebuilt_etc {
-    name: "preinstalled_packages_pixel_experience_2017_and_newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled_packages_pixel_experience_2017_and_newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled_packages_pixel_experience_2021_and_newer", 
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled_packages_pixel_experience_2021_and_newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-pixel-2025-common",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-pixel-2025-common.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-pixel-2026-common",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-pixel-2026-common.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-pixel-experience-2023-midyear-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-pixel-experience-2023-midyear-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2017-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2017-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2018-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2018-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2019-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2019-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2020-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2020-and-newer.xml",
-    filename_from_src: true,
-}
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2022-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2022-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2023-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2023-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2024-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2024-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2025-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2025-and-newer.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
-    name: "preinstalled-packages-product-pixel-2026-and-newer",
-    product_specific: true,
-    sub_dir: "sysconfig",
-    src: "preinstalled-packages-product-pixel-2026-and-newer.xml",
+    src: "preinstalled-packages-merged-product.xml",
     filename_from_src: true,
 }
 
@@ -450,5 +355,21 @@ prebuilt_etc {
     product_specific: true,
     sub_dir: "sysconfig",
     src: "quick_tap.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "satellite_sos",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "satellite_sos.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "spoon",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    src: "spoon.xml",
     filename_from_src: true,
 }

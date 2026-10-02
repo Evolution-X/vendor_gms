@@ -17,7 +17,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo comet frankel blazer mustang rango stallion, $(LINEAGE_BUILD)),)
+ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo comet frankel blazer mustang rango stallion yogi kodiak grizzly cubs, $(LINEAGE_BUILD)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := DreamlinerUpdater
