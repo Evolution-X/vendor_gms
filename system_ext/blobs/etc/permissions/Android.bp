@@ -47,14 +47,6 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "privapp-permissions-com.google.android.pixelsystemservice",
-    system_ext_specific: true,
-    sub_dir: "permissions",
-    src: "privapp-permissions-com.google.android.pixelsystemservice.xml",
-    filename_from_src: true,
-}
-
-prebuilt_etc {
     name: "privapp-permissions-google-se",
     system_ext_specific: true,
     sub_dir: "permissions",

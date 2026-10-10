@@ -168,7 +168,6 @@ PRODUCT_PACKAGES += \
     MoseyApp \
     NexusLauncherRelease \
     PixelSearchPrebuilt_26.02.00 \
-    PersistentBackgroundServices \
     SetupWizardPixelPrebuilt_cd1a \
     StorageManagerGoogle \
     TurboAdapter \
