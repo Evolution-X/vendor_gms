@@ -30,7 +30,6 @@ PRODUCT_PACKAGES += \
     com.google.android.apps.pixel.launcherconnector \
     privapp-permissions-com.google.android.apps.pixel.tabby \
     privapp-permissions-com.google.android.mosey \
-    privapp-permissions-com.google.android.pixelsystemservice \
     privapp-permissions-google-se
 
 # Sysconfig
