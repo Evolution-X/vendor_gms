@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += \
     SCONE-v77459
 endif
 
-ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion, $(LINEAGE_BUILD)),)
+ifneq ($(filter flame coral redfin oriole raven panther cheetah lynx felix shiba husky akita tokay caiman komodo tegu frankel blazer mustang rango stallion cubs grizzly kodiak yogi, $(LINEAGE_BUILD)),)
 PRODUCT_PACKAGES += \
     DreamlinerDreamsPrebuilt_100894 \
     DreamlinerPrebuilt_22000020 \
