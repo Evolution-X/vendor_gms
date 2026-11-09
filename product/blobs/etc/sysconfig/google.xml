@@ -122,6 +122,8 @@
     <allow-association target="com.google.android.as" allowed="com.google.android.providers.media.module" />
     <!-- AI services can bind to its open-source network component. -->
     <allow-association target="com.google.android.as" allowed="com.google.android.as.oss" />
+    <!-- The open-source network component can only bind back to the AI services. -->
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.as" />
     <!-- AI services can bind to Settings Intelligence. -->
     <allow-association target="com.google.android.as" allowed="com.google.android.settings.intelligence"/>
 
