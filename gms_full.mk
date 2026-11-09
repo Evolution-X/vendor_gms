@@ -48,7 +48,6 @@ PRODUCT_PACKAGES += \
     LocationHistoryPrebuilt \
     MarkupGoogle_v2 \
     NgaResources \
-    Photos \
     PixelThemesStub2026 \
     PrebuiltGoogleAdservicesTvp \
     PrebuiltGoogleTelemetryTvp \
@@ -68,6 +67,12 @@ TARGET_INCLUDE_LIVE_WALLPAPERS ?= true
 ifeq ($(TARGET_INCLUDE_LIVE_WALLPAPERS),true)
 PRODUCT_PACKAGES += \
     PixelWallpapers2026
+endif
+
+TARGET_INCLUDE_PHOTOS ?= true
+ifeq ($(TARGET_INCLUDE_PHOTOS),true)
+PRODUCT_PACKAGES += \
+    Photos
 endif
 
 ifneq ($(filter Google google,$(PRODUCT_MANUFACTURER)),)
