@@ -83,6 +83,7 @@ endif
 # product/priv-app
 PRODUCT_PACKAGES += \
     AdaptiveVPNPrebuilt-111042 \
+    AmbientStreaming \
     CarrierLocation \
     CarrierMetrics \
     CbrsNetworkMonitor \

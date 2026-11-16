@@ -107,6 +107,7 @@ endif
 
 PRODUCT_PACKAGES += \
     AdaptiveVPNPrebuilt-111042 \
+    AmbientStreaming \
     AndroidAutoStubPrebuilt \
     AndroidGlassesCoreStub \
     CarrierLocation \
